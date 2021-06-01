@@ -2,7 +2,7 @@
 
 *Requires: Bash and Docker*
 
-This is a self-contained torrent server that uses ProtonVPN-cli and Transmission in order to segregate torrent traffic to the `docker0` interface, which will allow you to pirate along in the comfort of knowing that your connection is secure.
+This is a self-contained torrent server that uses ProtonVPN-cli and Transmission in order to segregate torrent traffic to the `docker0` interface, which will allow you to...download Linux ISOs...in the comfort of knowing that your connection is secure.
 
 Killswitch is enabled by default, so no Internet traffic will flow into or out of this container if ProtonVPN is not connected.
 
