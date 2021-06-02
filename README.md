@@ -21,7 +21,6 @@ You may tweak the `.env.example` file and rename to `.env` in order to change th
 
 An executable script will be created at `/usr/local/bin/torrentserver` which you can run whenever you want to start or restart the container.
 
-The container is set to `--restart=always`, so it is *imperative* to use the VPN killswitch option (with LAN access enabled) during the initial ProtonVPN configuration.
 
 ## Uninstall
 
@@ -31,9 +30,16 @@ The container is set to `--restart=always`, so it is *imperative* to use the VPN
 
 All settings files will be removed, along with `/usr/local/bin/torrentserver`, as well as the Docker container and image.
 
+
 ## Run
 
 ```
 /usr/local/bin/torrentserver
+```
+
+## Stop
+
+```
+docker stop torrentserver
 ```
 
