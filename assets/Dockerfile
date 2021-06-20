@@ -9,6 +9,7 @@ RUN apt-get update &&\
     apt-utils \
     iproute2 \
     iputils-ping \
+    iptables-persistent \
     openvpn \
     dialog \
     python3-pip \
