@@ -55,6 +55,7 @@ elif [[ "$1" = "--uninstall" ]]; then
   rm -rf "$DIR"
   sudo rm -f /usr/local/bin/torrentserver
 elif [[ "$1" = "--run" ]]; then
+  set_env
   run_d
 else
   echo 'Script must be run with at least one parameter.'
